@@ -8,19 +8,6 @@ $(document).ready(function() {
         }
     });
     // header js //
-
-    // banner slider //
-    // ! function(e) {
-    //     "use strict";
-    //     $('.slied_worp').slick({
-    //         autoplay: true,
-    //         arrows: true,
-    //         autoplaySpeed: 3000,
-    //         speed: 3000,
-    //         easing: 'linear'
-    //     });
-    // }(jQuery)
-
     // slider js// 
     $('.slied_worp,.active').slick({
         autoplay: 0,
