@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 .canvas_btn {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 30px;
   display: inline-block;
   position: relative;
@@ -725,7 +725,7 @@ body a {
   margin-bottom: 40px;
 }
 .vew_worp .travel_main .travelhed {
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
   font-family: "Karla", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -737,7 +737,7 @@ body a {
 }
 .vew_worp .travel_main .travelpra {
   line-height: 1.8;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 .vew_worp .travel_main .stretched-link {
   cursor: pointer;
@@ -751,7 +751,7 @@ body a {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -800,7 +800,6 @@ body a {
   margin-bottom: 20px;
 }
 .subscrip_worp .banner_main .bannerInner .banner_pra {
-  font-size: 1.25rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 50px;
@@ -958,7 +957,7 @@ body a {
   display: inline-block;
   margin: 0 10px;
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.8;
 }
 .copyright .copyrights_menu a:hover {
@@ -1006,7 +1005,7 @@ body a {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 .footer_worp .footer_widgets .widget ul {
   margin-bottom: 0;
