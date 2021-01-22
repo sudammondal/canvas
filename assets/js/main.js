@@ -15,6 +15,46 @@ $(document).ready(function() {
         slidesToShow: 1,
         centerPadding: '0',
         centerMode: false,
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 1500,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            }
+        ]
+    });
+    $('.slider_banner,.banner_slider').slick({
+        autoplay: 1,
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        centerPadding: '0',
+        centerMode: false,
         dots: false,
         arrows: true,
         infinite: true,

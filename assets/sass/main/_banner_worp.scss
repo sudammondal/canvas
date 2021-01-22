@@ -1,70 +1,88 @@
 .banner_worp {
-    background-image: url(../imgs/banner/1.jpg);
+    // background-image: url(../imgs/banner/1.jpg);
     text-align: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    .banner_main {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        position: relative;
-        .bannerInner {
+    z-index: -1;
+    .banner_slider {
+        .ban_slied_item {
+            background-image: url(../imgs/banner/1.jpg);
             text-align: center;
-            svg {
-                display: block;
-                font: 52px 'Poppins', sans-serif;
-                width: 100%;
-                height: 100%;
-            }
-            .dnxt-text-stroke-animation-text {
-                fill: none;
-                stroke: white;
-                stroke-dasharray: 6% 29%;
-                stroke-width: 3px;
-                stroke-dashoffset: 0%;
-                animation: stroke-offset 5.5s infinite linear;
-            }
-            .dnxt-text-stroke-animation-text:nth-child(1) {
-                stroke: #4D163D;
-                animation-delay: -1;
-            }
-            .dnxt-text-stroke-animation-text:nth-child(2) {
-                stroke: #ffffff;
-                animation-delay: -2s;
-            }
-            .dnxt-text-stroke-animation-text:nth-child(3) {
-                stroke: #BD0034;
-                animation-delay: -3s;
-            }
-            .dnxt-text-stroke-animation-text:nth-child(4) {
-                stroke: #BD0034;
-                animation-delay: -4s;
-            }
-            .dnxt-text-stroke-animation-text:nth-child(5) {
-                stroke: #FDB731;
-                animation-delay: -5s;
-            }
-            @keyframes stroke-offset {
-                100% {
-                    stroke-dashoffset: -35%;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            .banner_main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                position: relative;
+                .bannerInner {
+                    text-align: center;
+                    svg {
+                        display: block;
+                        font: 52px 'Poppins', sans-serif;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .dnxt-text-stroke-animation-text {
+                        fill: none;
+                        stroke: white;
+                        stroke-dasharray: 6% 29%;
+                        stroke-width: 3px;
+                        stroke-dashoffset: 0%;
+                        animation: stroke-offset 5.5s infinite linear;
+                    }
+                    .dnxt-text-stroke-animation-text:nth-child(1) {
+                        stroke: #4D163D;
+                        animation-delay: -1;
+                    }
+                    .dnxt-text-stroke-animation-text:nth-child(2) {
+                        stroke: #ffffff;
+                        animation-delay: -2s;
+                    }
+                    .dnxt-text-stroke-animation-text:nth-child(3) {
+                        stroke: #BD0034;
+                        animation-delay: -3s;
+                    }
+                    .dnxt-text-stroke-animation-text:nth-child(4) {
+                        stroke: #BD0034;
+                        animation-delay: -4s;
+                    }
+                    .dnxt-text-stroke-animation-text:nth-child(5) {
+                        stroke: #FDB731;
+                        animation-delay: -5s;
+                    }
+                    @keyframes stroke-offset {
+                        100% {
+                            stroke-dashoffset: -35%;
+                        }
+                    }
+                    .banne_hed {
+                        letter-spacing: -2px;
+                        font-size: 61px;
+                        font-weight: 700;
+                        line-height: 1;
+                        color: #f7f7f7;
+                    }
+                    .banner_pra {
+                        font-size: 18px;
+                        color: #f7f7f7;
+                        margin: 16px 0 25px 0;
+                    }
                 }
             }
-            .banne_hed {
-                letter-spacing: -2px;
-                font-size: 61px;
-                font-weight: 700;
-                line-height: 1;
-                color: #f7f7f7;
-            }
-            .banner_pra {
-                font-size: 18px;
-                color: #f7f7f7;
-                margin: 16px 0 25px 0;
-            }
+        }
+        .ban_slied_item2 {
+            background-image: url(../imgs/banner/2.jpg);
+        }
+        .ban_slied_item3 {
+            background-image: url(../imgs/banner/3.jpg);
         }
     }
     .icon_abouts {

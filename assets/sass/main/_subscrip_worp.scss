@@ -1,12 +1,22 @@
 .subscrip_worp {
-    background-image: url(../imgs/banner/1.jpg);
-    text-align: center;
+    background-image: url(../vedio/image_vedio.png);
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 120px 0;
+    padding: 185px 0;
+    z-index: 1;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 0.57);
+    }
     .banner_main {
         display: flex;
         align-items: center;
@@ -30,6 +40,19 @@
                 color: rgba(255, 255, 255, 0.5);
                 margin-bottom: 50px;
                 line-height: 1.8;
+            }
+        }
+    }
+    .video_wrap {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: -1;
+        video {
+            width: 100%;
+            source {
+                width: 540px;
             }
         }
     }

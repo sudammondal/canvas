@@ -11,6 +11,53 @@
                 letter-spacing: 0;
                 margin-bottom: 16px;
             }
+            .instgtram_img {
+                position: relative;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                margin-left: -1px;
+                margin-right: -1px;
+                margin-bottom: -2px;
+                .grid_item {
+                    display: block;
+                    position: relative;
+                    width: 20%;
+                    max-width: 100%;
+                    height: auto;
+                    overflow: hidden;
+                    padding-left: 1px;
+                    padding-right: 1px;
+                    padding-bottom: 2px;
+                    padding-top: 0;
+                    &::before {
+                        font-family: 'FontAwesome';
+                        opacity: 0;
+                        display: flex;
+                        content: "\f16d";
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        transform: scale(1);
+                        font-size: 24px;
+                        color: #FFF;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        transition: opacity .3s, transform .3s ease;
+                    }
+                    &:hover {
+                        &:before {
+                            opacity: 1;
+                            transform: scale(1.2);
+                            content: "\f16d";
+                        }
+                    }
+                }
+            }
             ul {
                 margin-bottom: 0;
                 li {

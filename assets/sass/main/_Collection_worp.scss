@@ -23,7 +23,6 @@
     .collectionCard {
         position: relative;
         .imgcad {
-            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
@@ -39,10 +38,11 @@
             }
         }
         .card_body {
+            position: absolute;
             padding: 24px;
             border: none;
             width: 100%;
-            height: auto;
+            height: 100%;
             z-index: 2;
             .offer {
                 font-size: 27.2px;
@@ -50,7 +50,6 @@
                 letter-spacing: -1px;
                 font-weight: 700;
                 color: #ffffff;
-                margin-bottom: 195px;
             }
             .card-title {
                 font-size: 27.2px;
@@ -58,6 +57,7 @@
                 letter-spacing: -1px;
                 font-weight: 700;
                 color: #ffffff;
+                margin-top: auto !important;
             }
             .cardpra {
                 font-weight: 400;
