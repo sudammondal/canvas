@@ -275,13 +275,74 @@ body a {
 }
 
 .banner_worp {
+  background-image: url(../imgs/banner/1.jpg);
   text-align: center;
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  z-index: -1;
+  z-index: 2;
+}
+.banner_worp .banner_slider {
+  position: relative;
+}
+.banner_worp .banner_slider .slick-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 2;
+  transition: color 0.4s ease;
+}
+.banner_worp .banner_slider .slick-prev {
+  left: calc(50% - 50px);
+  top: auto;
+}
+.banner_worp .banner_slider .slick-next {
+  right: calc(50% - 50px);
+  top: auto;
+}
+.banner_worp .banner_slider .slick-prev:before {
+  position: absolute;
+  content: "";
+  font-family: "FontAwesome";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-right: 4px;
+}
+.banner_worp .banner_slider .slick-next:before {
+  position: absolute;
+  content: "";
+  font-family: "FontAwesome";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 4px;
+}
+.banner_worp .banner_slider .slick-prev:before,
+.banner_worp .banner_slider .slick-next:before {
+  font-family: "FontAwesome";
+  font-size: 19px;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.banner_worp .banner_slider .slick-prev,
+.banner_worp .banner_slider .slick-next {
+  transition: all 0.5s ease;
+  bottom: 10px;
+}
+.banner_worp .banner_slider .slick-prev:hover,
+.banner_worp .banner_slider .slick-next:hover {
+  background-color: #5e5e5f;
+}
+.banner_worp .banner_slider .slick-prev:hover::before,
+.banner_worp .banner_slider .slick-next:hover::before {
+  color: #ffffff;
 }
 .banner_worp .banner_slider .ban_slied_item {
   background-image: url(../imgs/banner/1.jpg);
@@ -547,6 +608,7 @@ body a {
   letter-spacing: -1px;
   font-weight: 700;
   color: #ffffff;
+  margin-bottom: 195px;
 }
 .Collection_worp .card .card_body .card-title,
 .Collection_worp .collectionCard .card_body .card-title {
@@ -609,6 +671,7 @@ body a {
   color: #111;
 }
 .allClactions .clactions .Claction_Main {
+  overflow: hidden;
   margin-bottom: 15px;
 }
 .allClactions .clactions .Claction_Main .flixlider {
@@ -620,9 +683,6 @@ body a {
 }
 .allClactions .clactions .Claction_Main .flixlider:hover {
   background-image: url("../imgs/collectiomn/8-2.jpg");
-}
-.allClactions .clactions .Claction_Main .flixlider .flex_vewport {
-  height: 604.281px;
 }
 .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slider_item a {
   display: block;
@@ -696,6 +756,16 @@ body a {
   color: #ffffff;
   background-color: #444;
 }
+.allClactions .clactions .Claction_Main .flexslider {
+  margin: 0 0 0 0;
+  border: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 400px;
+}
+.allClactions .clactions .Claction_Main .flexslider ol.flex-control-nav li img {
+  opacity: 0;
+}
 .allClactions .clactions .Claction_Main .claction_title {
   display: flex;
   justify-content: space-between;
@@ -736,6 +806,50 @@ body a {
 .allClactions .clactions .Claction_Main.activess .flixlider .butn .clec_button, .allClactions .clactions .Claction_Main:hover .flixlider .butn .clec_button {
   opacity: 1;
   z-index: 2;
+}
+.allClactions .clactions .Claction_Main.activess .flexslider ol.flex-control-nav li, .allClactions .clactions .Claction_Main:hover .flexslider ol.flex-control-nav li {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+.allClactions .clactions .Claction_Main.activess .flexslider ol.flex-control-nav li img, .allClactions .clactions .Claction_Main:hover .flexslider ol.flex-control-nav li img {
+  transition: opacity 0.3s linear;
+  opacity: 0.5;
+}
+.allClactions .clactions .Claction_Main.activess .flexslider ol.flex-control-nav li img.active, .allClactions .clactions .Claction_Main.activess .flexslider ol.flex-control-nav li img:hover, .allClactions .clactions .Claction_Main:hover .flexslider ol.flex-control-nav li img.active, .allClactions .clactions .Claction_Main:hover .flexslider ol.flex-control-nav li img:hover {
+  opacity: 1;
+}
+
+ol.flex-control-nav.flex-control-thumbs {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.flex-control-thumbs li {
+  width: auto;
+  float: left;
+  margin: 0;
+}
+
+.flex-control-thumbs {
+  margin: 0;
+  position: static;
+  overflow: hidden;
+}
+
+.flex-control-thumbs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.7;
+  cursor: pointer;
+  -moz-user-select: none;
+  transition: all 1s ease;
+  max-width: 55px;
+}
+
+.flex-direction-nav a {
+  display: none;
 }
 
 .vew_worp {

@@ -1,13 +1,69 @@
 .banner_worp {
-    // background-image: url(../imgs/banner/1.jpg);
+    background-image: url(../imgs/banner/1.jpg);
     text-align: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: -1;
+    z-index: 2;
     .banner_slider {
+        position: relative;
+        .slick-arrow {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.8);
+            z-index: 2;
+            transition: color .4s ease;
+        }
+        .slick-prev {
+            left: calc(50% - 50px);
+            top: auto;
+        }
+        .slick-next {
+            right: calc(50% - 50px);
+            top: auto;
+        }
+        .slick-prev:before {
+            position: absolute;
+            content: "\f053";
+            font-family: 'FontAwesome';
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-right: 4px;
+        }
+        .slick-next:before {
+            position: absolute;
+            content: "\f054";
+            font-family: 'FontAwesome';
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-left: 4px;
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            font-family: 'FontAwesome';
+            font-size: 19px;
+            line-height: 1;
+            opacity: .75;
+            color: rgba(0, 0, 0, 0.8);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .slick-prev,
+        .slick-next {
+            transition: all 0.5s ease;
+            bottom: 10px;
+            &:hover {
+                background-color: #5e5e5f;
+                &::before {
+                    color: #ffffff;
+                }
+            }
+        }
         .ban_slied_item {
             background-image: url(../imgs/banner/1.jpg);
             text-align: center;

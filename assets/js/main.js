@@ -50,7 +50,7 @@ $(document).ready(function() {
         ]
     });
     $('.slider_banner,.banner_slider').slick({
-        autoplay: 1,
+        autoplay: true,
         slidesToScroll: 1,
         slidesToShow: 1,
         centerPadding: '0',
@@ -109,4 +109,11 @@ $(document).ready(function() {
 
     // slider //
     new WOW().init();
+});
+$(document).ready(function() {
+    $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails",
+        slideshow: false,
+    });
 });

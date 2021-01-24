@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/magnific-popup.css">
     <link rel="stylesheet" href="./assets/css/slick-theme.css">
     <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/flexslider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -78,9 +79,9 @@
                                     <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
                                 </g>
                                 </svg>
-                                    <h2 class="banne_hed wow fadeOutUp" data-wow-duration="2s">Latest Sweatshirts</h2>
-                                    <p class="banner_pra wow fadeOutUp" data-wow-duration="2s">Collections for Summer Clothes</p>
-                                    <div class="button wow fadeOutUp">
+                                    <h2 class="banne_hed wow fadeOutUp" data-wow-duration="2s">Premium Classic Shoe</h2>
+                                    <p class="banner_pra wow fadeOutUp" data-wow-duration="2s">A New Collection of Summer 2021.</p>
+                                    <div class="button wow animate__fadeInUp">
                                         <a href="# " class="btn-default btn canvas_btn">Shop Men</a>
                                         <a href="# " class="btn-default btn canvas_btn">Shop Women</a>
                                     </div>
@@ -94,11 +95,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="banner_main ">
+                            <div class="banner_main">
                                 <div class="bannerInner">
                                     <svg>
                                 <symbol id="dnxt-text-stroke"> 
-                                    <text text-anchor="middle" x="50%" y="100%">Canvas</text>
+                                    <text text-anchor="middle" x="50%" y="80%">Canvas</text>
                                 </symbol>
                                 <g>
                                     <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
@@ -108,9 +109,9 @@
                                     <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
                                 </g>
                             </svg>
-                                    <h2 class="banne_hed wow fadeOutUp" data-wow-duration="2s">Latest Sweatshirts</h2>
-                                    <p class="banner_pra wow fadeOutUp" data-wow-duration="2s">Collections for Summer Clothes</p>
-                                    <div class="button wow fadeOutUp">
+                                    <h2 class="banne_hed wow fadeOutUp" data-wow-duration="2s">New Sports Collection</h2>
+                                    <p class="banner_pra wow fadeOutUp" data-wow-duration="2s">Black & White Collections</p>
+                                    <div class="button wow fadeOutUp" data-wow-duration="2.5s">
                                         <a href="# " class="btn-default btn canvas_btn">Shop Men</a>
                                         <a href="# " class="btn-default btn canvas_btn">Shop Women</a>
                                     </div>
@@ -504,19 +505,20 @@
                             <div class="col-md-4">
                                 <div class="Claction_Main">
                                     <div class="flixlider">
-                                        <div class="flex_vewport">
-                                            <div class="slied_worp">
-                                                <div class="slider_item">
-                                                    <a href="#">
-                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/7-1.jpg" alt="img">
-                                                    </a>
-                                                </div>
-                                                <div class="slider_item">
-                                                    <a href="#">
-                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/7-2.jpg" alt="img">
-                                                    </a>
-                                                </div>
-                                            </div>
+                                        <div class="flexslider">
+                                            <ul class="slides">
+                                                <li data-thumb="assets/imgs/collectiomn/7-1.jpg">
+                                                    <img src="assets/imgs/collectiomn/7-1.jpg" />
+                                                </li>
+
+                                                <li data-thumb="assets/imgs/collectiomn/7-2.jpg">
+                                                    <img class="active" src="assets/imgs/collectiomn/7-2.jpg" />
+                                                </li>
+
+                                                <li data-thumb="assets/imgs/collectiomn/7-3.jpg">
+                                                    <img src="assets/imgs/collectiomn/7-3.jpg" />
+                                                </li>
+                                            </ul>
                                         </div>
                                         <div class="butn">
                                             <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
@@ -599,16 +601,16 @@
                         <div><img src="./assets/imgs/collectiomn/travel.jpg" alt="image" class="mb-4 img-fluid travelimg"></div>
                         <h4 class="travelhed"><a href="#">Want to travel? Great Stuffs for Travel</a></h4>
                         <p class="travelpra">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloremque eveniet dolorem, porro earum. Eius, corrupti provident iusto modi sunt.</p>
-                        <a href="#" class="stretched-link btn"><u>View Details</u> <i class="icon "></i></a>
+                        <a href="#" class="btn"><u>View Details</u> <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="travel_main">
-                        <div><img src="./assets/imgs/collectiomn/store.jpg" alt="image" class="mb-4 img-fluid travelimg"></div>
+                        <div class="stretched-link "><img src="./assets/imgs/collectiomn/store.jpg" alt="image" class="mb-4 img-fluid travelimg"></div>
                         <h4 class="travelhed"><a href="#">Want to travel? Great Stuffs for Travel</a></h4>
                         <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloremque eveniet dolorem, porro earum. Eius, corrupti provident iusto modi sunt.</p>
                         <p class="location"><i class="icon-map-marker-alt"></i> <strong>Headquarters: </strong><a href="#" class="text-black-50 under btn-link"> 795 Folsom Ave, Suite 600 San Francisco, CA 94107</a></p>
-                        <a href="#" class="stretched-link btn"><u>View Details</u> <i class="icon "></i></a>
+                        <a href="#" class="btn"><u>View Details</u> <i class="icon "></i></a>
                     </div>
                 </div>
             </div>
@@ -861,6 +863,7 @@
     <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/isotope.pkgd.min.js"></script>
     <script src="./assets/js/imagelightbox.js"></script>
+    <script src="./assets/js/jquery.flexslider-min.js"></script>
     <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
