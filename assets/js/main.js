@@ -1,4 +1,18 @@
 $(document).ready(function() {
+
+
+    function headerHover() {
+        $(".nav_header").on('mouseover', function() {
+            $('body').addClass('ovrlay');
+        });
+        $(".nav_header").on('mouseleave', function() {
+            $('body').removeClass('ovrlay');
+        });
+    }
+
+    headerHover();
+
+
     //header js//
     $(window).scroll(function() {
         if ($(window).scrollTop() > 0) {
