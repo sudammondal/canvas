@@ -766,6 +766,9 @@ body a {
 .allClactions .clactions .Claction_Main .flexslider ol.flex-control-nav li img {
   opacity: 0;
 }
+.allClactions .clactions .Claction_Main .flexslider .slides img {
+  height: 400px;
+}
 .allClactions .clactions .Claction_Main .claction_title {
   display: flex;
   justify-content: space-between;
@@ -873,7 +876,7 @@ ol.flex-control-nav.flex-control-thumbs {
   line-height: 1.8;
   margin-bottom: 16px;
 }
-.vew_worp .travel_main .stretched-link {
+.vew_worp .travel_main .btn {
   cursor: pointer;
   font-weight: 600;
   padding: 0;
@@ -890,11 +893,15 @@ ol.flex-control-nav.flex-control-thumbs {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.vew_worp .travel_main .stretched-link ul {
+.vew_worp .travel_main .btn u {
   border-botton: 1px solid #212529;
 }
-.vew_worp .travel_main .stretched-link .icon {
-  top: 2px;
+.vew_worp .travel_main .btn .icon {
+  margin-left: 5px;
+  transition: all 0.5s ease;
+}
+.vew_worp .travel_main .btn:hover .icon {
+  padding-left: 15px;
 }
 .vew_worp .travel_main .location {
   line-height: 1.8;

@@ -149,6 +149,11 @@
                         }
                     }
                 }
+                .slides {
+                    img {
+                        height: 400px;
+                    }
+                }
             }
             .claction_title {
                 display: flex;
