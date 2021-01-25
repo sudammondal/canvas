@@ -296,6 +296,10 @@ body a {
 }
 .banner_worp .banner_slider {
   position: relative;
+  cursor: grab;
+}
+.banner_worp .banner_slider:active {
+  cursor: grabbing;
 }
 .banner_worp .banner_slider .slick-arrow {
   width: 40px;
