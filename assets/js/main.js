@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     function headerHover() {
         $(".nav_header").on('mouseover', function() {
             $('body').addClass('ovrlay');
