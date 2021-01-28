@@ -1,309 +1,447 @@
-// Extra large devices (large desktops, 1200px and up)
-@media (max-width: 1200px) {}
-
-@media (max-width: 1024px) {}
-
-// Large devices (desktops, 992px and up)
-@media (max-width: 992px) {
-    .banner_worp {
-        .banner_slider {
-            .slick-prev,
-            .slick-next {
-                bottom: -15px;
-            }
-        }
-    }
-    .header {
-        .nav_header {
-            .sopingbag {
-                right: 115px;
-            }
-        }
-    }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (max-width: 768px) {
-    .header {
-        .nav_header {
-            .sopingbag {
-                top: 38px;
-                right: 115px;
-            }
-        }
-    }
-    .main_manu {
-        padding-bottom: 10px;
-        height: 200px;
-        width: 100%;
-        overflow-x: scroll;
-    }
-    .Collection_worp {
-        .collectionCard {
-            .card_body {
-                .offer_dtls {
-                    .cardpra {
-                        display: none;
-                    }
-                }
-            }
-        }
-    }
-    .subscrip_worp {
-        .video_wrap {
-            video {
-                display: none;
-            }
-        }
-    }
-    .addwid_instg {
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 736px) {
-    .banner_worp {
-        .banner_slider {
-            .ban_slied_item {
-                .banner_main {
-                    .bannerInner {
-                        .banne_hed {
-                            font-size: 43px;
+                        @media (max-width: 1920px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 605px;
+                                        }
+                                        .flexslider {
+                                            min-height: 600px;
+                                            .slides {
+                                                img {
+                                                    min-height: 600px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
-                        svg {
-                            display: none;
+                        
+                        @media (max-width: 1366px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 410px;
+                                        }
+                                        .flexslider {
+                                            min-height: 410px;
+                                            .slides {
+                                                img {
+                                                    min-height: 410px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
-                    }
-                }
-            }
-        }
-    }
-    .banner_worp {
-        .banner_slider {
-            .slick-prev,
-            .slick-next {
-                bottom: -10px;
-            }
-        }
-    }
-    .Collection_worp {
-        .card,
-        .collectionCard {
-            margin-bottom: 30px;
-        }
-    }
-    .Collection_worp {
-        .collectionCard {
-            .card_body {
-                .offer_dtls {
-                    .cardpra {
-                        display: block;
-                    }
-                }
-            }
-        }
-    }
-    .allClactions {
-        .Clactionmanu {
-            .mainManu {
-                li {
-                    display: inline-block;
-                    margin-right: 10px;
-                }
-            }
-        }
-    }
-    .preaum {
-        .preaum_main {
-            .mobil {
-                h2 {
-                    font-size: 30px;
-                }
-            }
-        }
-    }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {
-    .banner_worp {
-        .sets_canvas {
-            .canvas_bttn {
-                display: none;
-            }
-        }
-    }
-}
-
-@media (max-width: 420px) {
-    .allClactions {
-        .clactions {
-            .Claction_Main {
-                .flexslider {
-                    height: 278px;
-                }
-            }
-        }
-    }
-    .flex-viewport {
-        height: 278px;
-    }
-    .header {
-        .nav_header {
-            .sopingbag {
-                .logIn {
-                    padding: 0 5px;
-                }
-                .sopingbag {
-                    right: 100px;
-                }
-            }
-        }
-    }
-    .sets_canvas {
-        .canvas_bttn {
-            display: none;
-        }
-    }
-    .banner_worp {
-        .banner_slider {
-            .ban_slied_item {
-                .banner_main {
-                    .bannerInner {
-                        svg {
-                            display: none;
+                        
+                        @media (max-width: 1080px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 305px;
+                                        }
+                                        .flexslider {
+                                            min-height: 300px;
+                                            .slides {
+                                                img {
+                                                    min-height: 300px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
-                        .banne_hed {
-                            font-size: 30px;
+                        
+                        @media (max-width: 1024px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 285px;
+                                        }
+                                        .flexslider {
+                                            min-height: 285px;
+                                            .slides {
+                                                img {
+                                                    min-height: 285px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
-                        .banner_pra {
-                            font-size: 16px;
+                        
+                        // Large devices (desktops, 992px and up)
+                        @media (max-width: 992px) {
+                            .banner_worp {
+                                .banner_slider {
+                                    .slick-prev,
+                                    .slick-next {
+                                        bottom: -15px;
+                                    }
+                                }
+                            }
+                            .header {
+                                .nav_header {
+                                    .sopingbag {
+                                        right: 115px;
+                                    }
+                                }
+                            }
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 395px;
+                                        }
+                                    }
+                                }
+                            }
                         }
-                    }
-                }
-            }
-        }
-    }
-    .canvas_btn {
-        font-weight: 600;
-        padding: 6px 22px;
-        font-size: 14px;
-    }
-    .banner_worp {
-        .icon_abouts {
-            left: 3px;
-        }
-        .icon_abouts:before {
-            display: none;
-        }
-    }
-    .Collection_worp {
-        .collection_mainHed {
-            .Collection_hed {
-                font-size: 26px;
-            }
-        }
-        .collectionCard {
-            margin-bottom: 30px;
-            .card_body {
-                .offer_dtls {
-                    .cardpra {
-                        display: block;
-                    }
-                }
-            }
-        }
-    }
-    .allClactions {
-        .Clactionmanu {
-            .mainManu {
-                li {
-                    display: inline-block;
-                    margin-right: 10px;
-                }
-            }
-        }
-    }
-    .subscrip_worp {
-        .banner_main {
-            .bannerInner {
-                .banne_hed {
-                    font-size: 42px;
-                }
-                .banner_pra {
-                    font-size: 14px;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 375px) {
-    .header {
-        .nav_header {
-            .nav_main {
-                .nav_button {
-                    width: 20px;
-                    height: 12px;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 320px) {
-    .banner_worp {
-        .icon_abouts {
-            display: block;
-        }
-    }
-    .header {
-        .fixedMenu,
-        .nav_header {
-            .nav_main {
-                .logo {
-                    .logo_img {
-                        height: 58px;
-                    }
-                }
-                .logo2 {
-                    .logo_img {
-                        height: 58px;
-                    }
-                }
-            }
-        }
-    }
-    .header {
-        .nav_header {
-            .sopingbag {
-                top: 32px;
-                right: 82px;
-                i {
-                    display: none;
-                }
-                &::before {
-                    display: none;
-                }
-            }
-        }
-    }
-    .Collection_worp {
-        .collectionCard {
-            .card_body {
-                .offer_dtls {
-                    .cardpra {
-                        margin-bottom: 10px;
-                    }
-                }
-            }
-        }
-    }
-    .allClactions {
-        .Clactionmanu {
-            position: relative;
-        }
-    }
-}
+                        
+                        // Medium devices (tablets, 768px and up)
+                        @media (max-width: 768px) {
+                            .header {
+                                .nav_header {
+                                    .sopingbag {
+                                        top: 38px;
+                                        right: 115px;
+                                    }
+                                }
+                            }
+                            .main_manu {
+                                padding-bottom: 10px;
+                                height: 200px;
+                                width: 100%;
+                                overflow-x: scroll;
+                            }
+                            .Collection_worp {
+                                .collectionCard {
+                                    .card_body {
+                                        .offer_dtls {
+                                            .cardpra {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 370px;
+                                        }
+                                    }
+                                }
+                            }
+                            .subscrip_worp {
+                                .video_wrap {
+                                    video {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            .addwid_instg {
+                                -ms-flex: 0 0 33.333333%;
+                                flex: 0 0 100%;
+                                max-width: 100%;
+                            }
+                        }
+                        
+                        @media (max-width: 736px) {
+                            .banner_worp {
+                                .banner_slider {
+                                    .ban_slied_item {
+                                        .banner_main {
+                                            .bannerInner {
+                                                .banne_hed {
+                                                    font-size: 43px;
+                                                }
+                                                svg {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .banner_worp {
+                                .banner_slider {
+                                    .slick-prev,
+                                    .slick-next {
+                                        bottom: -10px;
+                                    }
+                                }
+                            }
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 432px;
+                                        }
+                                    }
+                                }
+                            }
+                            .Collection_worp {
+                                .card,
+                                .collectionCard {
+                                    margin-bottom: 30px;
+                                }
+                            }
+                            .Collection_worp {
+                                .collectionCard {
+                                    .card_body {
+                                        .offer_dtls {
+                                            .cardpra {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .allClactions {
+                                .Clactionmanu {
+                                    .mainManu {
+                                        li {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                            .preaum {
+                                .preaum_main {
+                                    .mobil {
+                                        h2 {
+                                            font-size: 30px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        @media (max-width: 736px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 309px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        @media (max-width: 731px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 432px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        @media (max-width: 640px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .hover_img {
+                                            min-height: 372px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        // Small devices (landscape phones, 576px and up)
+                        @media (max-width: 576px) {
+                            .banner_worp {
+                                .sets_canvas {
+                                    .canvas_bttn {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        @media (max-width: 420px) {
+                            .allClactions {
+                                .clactions {
+                                    .Claction_Main {
+                                        .flexslider {
+                                            height: 278px;
+                                        }
+                                    }
+                                }
+                            }
+                            .flex-viewport {
+                                height: 278px;
+                            }
+                            .header {
+                                .nav_header {
+                                    .sopingbag {
+                                        .logIn {
+                                            padding: 0 5px;
+                                        }
+                                        .sopingbag {
+                                            right: 100px;
+                                        }
+                                    }
+                                }
+                            }
+                            .sets_canvas {
+                                .canvas_bttn {
+                                    display: none;
+                                }
+                            }
+                            .banner_worp {
+                                .banner_slider {
+                                    .ban_slied_item {
+                                        .banner_main {
+                                            .bannerInner {
+                                                svg {
+                                                    display: none;
+                                                }
+                                                .banne_hed {
+                                                    font-size: 30px;
+                                                }
+                                                .banner_pra {
+                                                    font-size: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .canvas_btn {
+                                font-weight: 600;
+                                padding: 6px 22px;
+                                font-size: 14px;
+                            }
+                            .banner_worp {
+                                .icon_abouts {
+                                    left: 3px;
+                                }
+                                .icon_abouts:before {
+                                    display: none;
+                                }
+                            }
+                            .Collection_worp {
+                                .collection_mainHed {
+                                    .Collection_hed {
+                                        font-size: 26px;
+                                    }
+                                }
+                                .collectionCard {
+                                    margin-bottom: 30px;
+                                    .card_body {
+                                        .offer_dtls {
+                                            .cardpra {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .allClactions {
+                                .Clactionmanu {
+                                    .mainManu {
+                                        li {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                            .subscrip_worp {
+                                .banner_main {
+                                    .bannerInner {
+                                        .banne_hed {
+                                            font-size: 42px;
+                                        }
+                                        .banner_pra {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        @media (max-width: 375px) {
+                            .header {
+                                .nav_header {
+                                    .nav_main {
+                                        .nav_button {
+                                            width: 20px;
+                                            height: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                        @media (max-width: 320px) {
+                            .banner_worp {
+                                .icon_abouts {
+                                    display: block;
+                                }
+                            }
+                            .header {
+                                .fixedMenu,
+                                .nav_header {
+                                    .nav_main {
+                                        .logo {
+                                            .logo_img {
+                                                height: 58px;
+                                            }
+                                        }
+                                        .logo2 {
+                                            .logo_img {
+                                                height: 58px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .header {
+                                .nav_header {
+                                    .sopingbag {
+                                        top: 32px;
+                                        right: 82px;
+                                        i {
+                                            display: none;
+                                        }
+                                        &::before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                            .Collection_worp {
+                                .collectionCard {
+                                    .card_body {
+                                        .offer_dtls {
+                                            .cardpra {
+                                                margin-bottom: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .allClactions {
+                                .Clactionmanu {
+                                    position: relative;
+                                }
+                            }
+                        }

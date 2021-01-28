@@ -22,6 +22,7 @@
     .card,
     .collectionCard {
         position: relative;
+        z-index: 1;
         .imgcad {
             img {
                 top: 0;
@@ -83,23 +84,4 @@
             }
         }
     }
-}
-
-body::before {
-    position: fixed;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 10;
-    transition: all 0.5s;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.ovrlay::before {
-    opacity: 1;
-    visibility: visible;
 }

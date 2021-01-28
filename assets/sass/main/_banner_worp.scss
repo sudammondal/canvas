@@ -13,7 +13,6 @@
         &:active {
             cursor: grabbing;
         }
-        // cursor: grabbing;
         .slick-arrow {
             width: 40px;
             height: 40px;
@@ -240,6 +239,152 @@
             }
             &:hover {
                 background-color: #c4302b;
+            }
+        }
+    }
+    .sets_canvas {
+        position: fixed;
+        top: 221px;
+        right: 26px;
+        margin-bottom: 30px;
+        border: 1px solid rgba(0, 0, 0, .09);
+        border-radius: 3px;
+        box-shadow: 0 13px 42px 11px rgb(0 0 0 / 5%);
+        z-index: 1000;
+        // overflow: hidden;
+        transition: all .45s ease;
+        .canvas_bttn {
+            box-shadow: 0 13px 42px 11px rgba(0, 0, 0, .05);
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            border: 1px solid #ddd;
+            outline: none;
+            border-radius: 3px;
+            text-align: center;
+            position: absolute;
+            top: -90px;
+            right: 0px;
+            z-index: 1001;
+            i {
+                font-size: 20px;
+            }
+        }
+        .color_sattingadd {
+            width: 0px;
+            min-height: 0px;
+            height: 0%;
+            overflow-X: scroll;
+            position: absolute;
+            top: -90px;
+            right: 0px;
+            background: #fff;
+            border: 1px solid rgba(0, 0, 0, .09);
+            border-radius: 3px;
+            box-shadow: 0 13px 42px 11px rgb(0 0 0 / 5%);
+            z-index: 1000;
+            transition: all 0.5s ease;
+            a {
+                cursor: pointer;
+                margin: 0 5px 5px 0;
+                text-decoration: none;
+                &:hover {
+                    color: #fff;
+                    background-color: #5a6268;
+                    border-color: #545b62;
+                }
+            }
+            .widget {
+                .line {
+                    opacity: 1;
+                    transition: opacity .3s .4s ease;
+                    clear: both;
+                    position: relative;
+                    width: 0%;
+                    margin: 35px 0;
+                    border-top: 1px solid #eee;
+                }
+                .line_pra {
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    margin-bottom: 15px;
+                    color: #444;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .btn-container {
+                    .btn {
+                        margin: 2px;
+                    }
+                }
+                .geara_pra {
+                    margin-bottom: 30px;
+                }
+                .gear_row {
+                    margin: 0 -5px;
+                    .geat_col {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+        .jsClass {
+            width: 300px;
+            min-height: 400px;
+            height: 100%;
+            padding: 35px 25px;
+            overflow-X: scroll;
+            position: absolute;
+            top: -90px;
+            right: 0px;
+            background: #fff;
+            border: 1px solid rgba(0, 0, 0, .09);
+            border-radius: 3px;
+            box-shadow: 0 13px 42px 11px rgb(0 0 0 / 5%);
+            z-index: 1000;
+            transition: all 0.5s ease;
+            a {
+                cursor: pointer;
+                margin: 0 5px 5px 0;
+                text-decoration: none;
+                &:hover {
+                    color: #fff;
+                    background-color: #5a6268;
+                    border-color: #545b62;
+                }
+            }
+            .widget {
+                .line {
+                    opacity: 1;
+                    transition: opacity .3s .4s ease;
+                    clear: both;
+                    position: relative;
+                    width: 100%;
+                    margin: 35px 0;
+                    border-top: 1px solid #eee;
+                }
+                .line_pra {
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    margin-bottom: 15px;
+                    color: #444;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .btn-container {
+                    .btn {
+                        margin: 2px;
+                    }
+                }
+                .geara_pra {
+                    margin-bottom: 30px;
+                }
+                .gear_row {
+                    margin: 0 -5px;
+                    .geat_col {
+                        padding: 5px;
+                    }
+                }
             }
         }
     }

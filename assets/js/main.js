@@ -11,6 +11,14 @@ $(document).ready(function() {
 
     headerHover();
 
+    function jsClass() {
+        $(".canvas_bttn").on('click', function() {
+            $('.color_sattingadd').toggleClass('jsClass');
+        });
+    }
+
+    jsClass();
+
 
     //header js//
     $(window).scroll(function() {
